@@ -6,3 +6,13 @@ double amount = 100000.5;
 bool isAuthenticated = true;
 
 Console.WriteLine(message1);
+
+if (isAuthenticated)
+{
+    Console.WriteLine("Buton--> Hoşgeldin Şerife");
+}
+else
+{
+    Console.WriteLine("Buton--> Sisteme giriş yap");
+}
+Console.WriteLine("Buton--> Kod Bitti");
