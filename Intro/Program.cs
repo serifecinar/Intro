@@ -77,3 +77,9 @@ for (int i = 0; i < courses2.Length; i++)
 }
 
 Console.WriteLine("Buton--> Kod Bitti");
+
+IndividualCustomer customer1 = new IndividualCustomer();
+customer1.Id = 1;
+customer1.NationalIdentity = "12345678910";
+customer1.FirstName = "Özgür";
+customer1.LastName = "";
